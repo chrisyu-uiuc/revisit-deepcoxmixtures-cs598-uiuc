@@ -1,6 +1,6 @@
 # Deep Cox Mixtures for Survival Regression - Reproduction Study (CS598: Deep Learning for Healthcare @ UIUC)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains our reproduction study of the paper ["Deep Cox Mixtures for Survival Regression"](https://arxiv.org/abs/2101.06536) by Nagpal et al. (2021), including our full analysis paper [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
@@ -57,21 +57,21 @@ Survival analysis predicts the probability of an event occurring within a specif
 - ​**Size**: 686 patients with node-positive breast cancer
 - ​**Features**: Tumor characteristics and treatment data
 - ​**Task**: Predict recurrence-free survival
-- ​**Access**: [Kaggle](https://www.kaggle.com/datasets/ibrahimsoyturk/breast-cancer-german-study-group)
+- ​**Access**: [Kaggle](https://www.kaggle.com/datasets/utkarshx27/breast-cancer-dataset-used-royston-and-altman)
 
 ## Notebooks
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
-| [SEER Analysis](598DL4H_DCM_CV_Example_Code_SEER.ipynb) | Cancer survival modeling | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/blob/main/598DL4H_DCM_CV_Example_Code_SEER.ipynb) |
-| [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) | ICU patient survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) |
-| [GBSG Analysis](598DL4H_DCM_CV_Example_Code_GBSG.ipynb) | Breast cancer survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/blob/main/598DL4H_DCM_CV_Example_Code_GBSG.ipynb) |
+| [SEER Analysis](598DL4H_DCM_CV_Example_Code_SEER.ipynb) | Cancer survival modeling | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SEER.ipynb) |
+| [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) | ICU patient survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) |
+| [GBSG Analysis](598DL4H_DCM_CV_Example_Code_GBSG.ipynb) | Breast cancer survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_GBSG.ipynb) |
 
 ## Results
 
 ### Performance Comparison
 
-​**SUPPORT Dataset Results  (75th Percentile)**​
+​**SUPPORT Dataset Results (75th Percentile)​**​
 
 | Model       | AUC   | C-index | ECE   | Brier Score |
 |-------------|-------|---------|-------|-------------|
@@ -79,7 +79,7 @@ Survival analysis predicts the probability of an event occurring within a specif
 | DCM (Ours)  | 0.716 | 0.650   | 0.079 | 0.211       |
 | DCM (Paper) | 0.726 | 0.675   | 0.026 | 0.212       |
 
-​**SEER Dataset Results  (75th Percentile)**​
+​**SEER Dataset Results (75th Percentile)​**​
 
 | Model       | AUC   | C-index | ECE   | Brier Score |
 |-------------|-------|---------|-------|-------------|
@@ -100,8 +100,8 @@ Survival analysis predicts the probability of an event occurring within a specif
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
-| [SEER Analysis](598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) | Feature analysis | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/blob/main/598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) |
-| [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) | Data exploration | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/cs598dl4h-deepcoxmixtures/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) |
+| [SEER Analysis](598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) | Feature analysis | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) |
+| [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) | Data exploration | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) |
 
 ## Contributors
 

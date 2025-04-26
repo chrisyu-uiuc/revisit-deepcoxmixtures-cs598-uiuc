@@ -5,6 +5,8 @@
 
 This repository contains our reproduction study of the paper ["Deep Cox Mixtures for Survival Regression"](https://arxiv.org/abs/2101.06536) by Nagpal et al. (2021), including our full analysis paper [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
 
+![Analysis Outputs](images/Deep_Cox_Mixture_Model.png)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)

@@ -1,9 +1,12 @@
-# Deep Cox Mixtures for Survival Regression - Reproduction Study (CS598: Deep Learning for Healthcare @ UIUC)
+# Deep Cox Mixtures for Survival Regression - Reproduction Study  
+*(CS598: Deep Learning for Healthcare @ UIUC)*  
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains our reproduction study of the paper ["Deep Cox Mixtures for Survival Regression"](https://arxiv.org/abs/2101.06536) by Nagpal et al. (2021), including our full analysis paper [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
+[![Project Presentation Video](https://img.youtube.com/vi/ZCDKqr79700/0.jpg)](https://www.youtube.com/watch?v=ZCDKqr79700)
+
+This repository contains our reproduction study of the paper ​**​[Deep Cox Mixtures for Survival Regression](https://arxiv.org/abs/2101.06536)​**​ by Nagpal et al. (2021), including our full analysis paper: [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
 
 ![Model Overview](images/Deep_Cox_Mixture_Model.png)
 
@@ -19,7 +22,6 @@ This repository contains our reproduction study of the paper ["Deep Cox Mixtures
 - [Acknowledgments](#acknowledgments)
 
 ## Project Overview
-
 Survival analysis predicts the probability of an event occurring within a specific time period, with applications ranging from medical prognosis to industrial reliability. This project focuses on reproducing and evaluating the Deep Cox Mixtures (DCM) model, which addresses limitations of traditional survival analysis methods like the Cox Proportional Hazards model.
 
 ## Key Features
@@ -92,34 +94,29 @@ Survival analysis predicts the probability of an event occurring within a specif
 ​**GBSG Dataset Results (75th Percentile)​**​
 
 | Model | CTD  | ECE  |
-|-------|---------|---------|
-| CPH   | 0.554   | 0.219   |
-| DCM   | 0.669   | 0.295   |
-| DSM   | 0.669   | 0.315   |
-| RSF   | 0.669   | 0.219   |
+|-------|------|------|
+| CPH   | 0.554 | 0.219 |
+| DCM   | 0.669 | 0.295 |
+| DSM   | 0.669 | 0.315 |
+| RSF   | 0.669 | 0.219 |
 
 ### Prediction of Survival Curve using DCM
-
-![Model Overview](images/KM_Curve_By_DCM.png)
+![Kaplan-Meier Curve](images/KM_Curve_By_DCM.png)
 
 ## Dataset Analysis
-
 | Notebook | Description | Colab |
 |----------|-------------|-------|
 | [SEER Analysis](598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) | Feature analysis | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SEER_Analysis.ipynb) |
 | [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) | Data exploration | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT_Analysis.ipynb) |
 
 ## Contributors
-
 - ​**Chris Yu**​ ([hmyu2@illinois.edu](mailto:hmyu2@illinois.edu))
 - ​**Jimmy Lee**​ ([jl279@illinois.edu](mailto:jl279@illinois.edu))
 
 ## License
-
 MIT License - See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
-
 - Original DCM authors: Chirag Nagpal et al.
 - Course: [CS598: Deep Learning for Healthcare](https://sunlab.org/) @ UIUC
 - Dataset providers: SUPPORT Study Group, NCI SEER Program, GBSG

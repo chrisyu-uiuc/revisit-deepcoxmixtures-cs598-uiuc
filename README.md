@@ -4,11 +4,13 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Project Presentation Video](https://img.youtube.com/vi/ZCDKqr79700/0.jpg)](https://www.youtube.com/watch?v=ZCDKqr79700)
-
 This repository contains our reproduction study of the paper ​**​[Deep Cox Mixtures for Survival Regression](https://arxiv.org/abs/2101.06536)​**​ by Nagpal et al. (2021), including our full analysis paper: [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
 
 ![Model Overview](images/Deep_Cox_Mixture_Model.png)
+
+[![Project Presentation Video](https://img.youtube.com/vi/ZCDKqr79700/0.jpg)](https://www.youtube.com/watch?v=ZCDKqr79700)
+[Project Presentation Video](https://www.youtube.com/watch?v=ZCDKqr79700).
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)

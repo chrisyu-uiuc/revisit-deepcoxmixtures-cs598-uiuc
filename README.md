@@ -5,7 +5,7 @@
 
 This repository contains our reproduction study of the paper ["Deep Cox Mixtures for Survival Regression"](https://arxiv.org/abs/2101.06536) by Nagpal et al. (2021), including our full analysis paper [Revisit_DeepCoxMixturesForSurvivalRegression.pdf](Revisit_DeepCoxMixturesForSurvivalRegression.pdf).
 
-![Analysis Outputs](images/Deep_Cox_Mixture_Model.png)
+![Model Overview](images/Deep_Cox_Mixture_Model.png)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -97,6 +97,10 @@ Survival analysis predicts the probability of an event occurring within a specif
 | DCM   | 0.669   | 0.295   |
 | DSM   | 0.669   | 0.315   |
 | RSF   | 0.669   | 0.219   |
+
+### Prediction of Survival Curve using DCM
+
+![Model Overview](images/KM_Curve_By_DCM.png)
 
 ## Dataset Analysis
 

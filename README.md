@@ -8,8 +8,9 @@ This repository contains our reproduction study of the paper ​**​[Deep Cox M
 
 ![Model Overview](images/Deep_Cox_Mixture_Model.png)
 
-[![Project Presentation Video](https://img.youtube.com/vi/ZCDKqr79700/0.jpg)](https://www.youtube.com/watch?v=ZCDKqr79700)
-[Project Presentation Video](https://www.youtube.com/watch?v=ZCDKqr79700).
+[![Project Presentation Video](https://img.youtube.com/vi/3dN7VIKomVY/0.jpg)](https://youtu.be/3dN7VIKomVY)
+
+[Project Presentation Video](https://www.youtube.com/watch?v=3dN7VIKomVY).
 
 
 ## Table of Contents

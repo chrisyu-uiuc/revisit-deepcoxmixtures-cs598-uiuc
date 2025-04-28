@@ -76,35 +76,22 @@ Survival analysis predicts the probability of an event occurring within a specif
 
 ## Results
 
+### Prediction of Survival Curve using DCM
+![Kaplan-Meier Curve](images/KM_Curve_By_DCM.png)
+
 ### Performance Comparison
-
-​**SUPPORT Dataset Results (75th Percentile)​**​
-
-| Model       | AUC   | C-index | ECE   | Brier Score |
-|-------------|-------|---------|-------|-------------|
-| CPH         | 0.739 | 0.666   | 0.040 | 0.197       |
-| DCM (Ours)  | 0.716 | 0.650   | 0.079 | 0.211       |
-| DCM (Paper) | 0.726 | 0.675   | 0.026 | 0.212       |
 
 ​**SEER Dataset Results (75th Percentile)​**​
 
-| Model       | AUC   | C-index | ECE   | Brier Score |
-|-------------|-------|---------|-------|-------------|
-| CPH         | 0.738 | 0.730   | 0.036 | 0.132       |
-| DCM (Ours)  | 0.750 | 0.736   | 0.048 | 0.129       |
-| DCM (Paper) | 0.855 | 0.827   | 0.010 | 0.106       |
+![SEER Dataset Results  (75th Percentile)](images/seer_result.png)
+
+​**SUPPORT Dataset Results (75th Percentile)​**​
+
+![SUPPORT Dataset Results (75th Percentile)](images/support_result.png)
 
 ​**GBSG Dataset Results (75th Percentile)​**​
 
-| Model | CTD  | ECE  |
-|-------|------|------|
-| CPH   | 0.554 | 0.219 |
-| DCM   | 0.669 | 0.295 |
-| DSM   | 0.669 | 0.315 |
-| RSF   | 0.669 | 0.219 |
-
-### Prediction of Survival Curve using DCM
-![Kaplan-Meier Curve](images/KM_Curve_By_DCM.png)
+![GBSG Dataset Results (75th Percentile)](images/gbsg_result.png)
 
 ## Dataset Analysis
 | Notebook | Description | Colab |

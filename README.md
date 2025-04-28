@@ -74,6 +74,33 @@ Survival analysis predicts the probability of an event occurring within a specif
 | [SUPPORT Analysis](598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) | ICU patient survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_SUPPORT.ipynb) |
 | [GBSG Analysis](598DL4H_DCM_CV_Example_Code_GBSG.ipynb) | Breast cancer survival | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc/blob/main/598DL4H_DCM_CV_Example_Code_GBSG.ipynb) |
 
+# Installation & Quick Start
+
+## 🛠️ Local Setup
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+- Git (optional)
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/chrisyu-uiuc/revisit-deepcoxmixtures-cs598-uiuc.git
+cd revisit-deepcoxmixtures-cs598-uiuc
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+pip install notebook  # Only if not already installed
+jupyter notebook 598DL4H_DCM_CV_Example_Code_SEER.ipynb #Run SEER Breast Cancer Analysis
+```
+
+### 3. Run SEER Breast Cancer Analysis
+```bash
+jupyter notebook 598DL4H_DCM_CV_Example_Code_SEER.ipynb```
+
+
 ## Results
 
 ### Prediction of Survival Curve using DCM

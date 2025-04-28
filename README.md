@@ -85,9 +85,17 @@ Survival analysis predicts the probability of an event occurring within a specif
 
 ![SEER Dataset Results  (75th Percentile)](images/seer_result.png)
 
+​**SEER Dataset Original Results (75th Percentile) from the paper​**​
+
+![SEER Dataset Original Results  (75th Percentile)](images/seer_original_result.png)
+
 ​**SUPPORT Dataset Results (75th Percentile)​**​
 
 ![SUPPORT Dataset Results (75th Percentile)](images/support_result.png)
+
+​**SUPPORT Dataset Original Results (75th Percentile)​**​
+
+![SUPPORT Dataset Original Results (75th Percentile)](images/support_original_result.png)
 
 ​**GBSG Dataset Results (75th Percentile)​**​
 

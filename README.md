@@ -94,7 +94,6 @@ cd revisit-deepcoxmixtures-cs598-uiuc
 ```bash
 pip install -r requirements.txt
 pip install notebook  # Only if not already installed
-jupyter notebook 598DL4H_DCM_CV_Example_Code_SEER.ipynb #Run SEER Breast Cancer Analysis
 ```
 
 ### 3. Run SEER Breast Cancer Analysis

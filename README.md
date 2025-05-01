@@ -103,7 +103,7 @@ jupyter notebook 598DL4H_DCM_CV_Example_Code_SEER.ipynb
 
 ## Results
 
-### Prediction of Survival Curve using DCM
+### Prediction of Survival Curve using DCM (Support Dataset)
 ![Kaplan-Meier Curve](images/KM_Curve_By_DCM.png)
 
 ### Performance Comparison
